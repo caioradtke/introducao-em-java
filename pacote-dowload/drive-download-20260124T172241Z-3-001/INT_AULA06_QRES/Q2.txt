@@ -1,0 +1,17 @@
+package aula06;
+
+import  java.util.Scanner;
+
+public class Questão2 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner (System.in);
+		int contneg = 0;
+		int i = 0;
+		for(i = 0; i < 5; i++) {
+			System.out.println("Informe um valor:");
+			Double v = s.nextDouble();
+			if (v < 0) {contneg++;}
+		}
+		System.out.println("A quantidade de valores negativos é: " +contneg);
+	}
+}
