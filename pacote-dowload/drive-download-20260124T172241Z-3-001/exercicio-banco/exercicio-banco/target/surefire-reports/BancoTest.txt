@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: BancoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.052 s <<< FAILURE! - in BancoTest
+BancoTest.deveFalharAoSacarContaPoupanca  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor ContaPoupanca(int, String, Banco) is undefined
+
+	at br.udesc.testedesoftware.Banco.criarContaPoupanca(Banco.java:32)
+	at BancoTest.deveFalharAoSacarContaPoupanca(BancoTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+BancoTest.deveCriarContasCodigosIguaisEmBancosDiferentes  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor ContaCorrente(int, String, Banco) is undefined
+
+	at br.udesc.testedesoftware.Banco.criarContaCorrente(Banco.java:26)
+	at BancoTest.deveCriarContasCodigosIguaisEmBancosDiferentes(BancoTest.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+BancoTest.deveCriarUmaNovaContaCorrente  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor ContaCorrente(int, String, Banco) is undefined
+
+	at br.udesc.testedesoftware.Banco.criarContaCorrente(Banco.java:26)
+	at BancoTest.deveCriarUmaNovaContaCorrente(BancoTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+BancoTest.deveEfetuarSaqueContaCorrente  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor ContaCorrente(int, String, Banco) is undefined
+
+	at br.udesc.testedesoftware.Banco.criarContaCorrente(Banco.java:26)
+	at BancoTest.deveEfetuarSaqueContaCorrente(BancoTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
